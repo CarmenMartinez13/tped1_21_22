@@ -19,13 +19,25 @@ li{
     list-style-type: none;
     padding: 10px 60px 10px 60px;
 }
-img {
-   
-    padding: 5px;
+img{
+   padding: 5px;
     width: 150px;
-    filter:saturate(0)
   }
-  
-  img:hover {
+.desaturada{
+    filter:saturate(0);
+}
+.sepia{
+    filter:sepia(100);
+}
+.negativo{
+    filter:invert(100);
+}
+.desaturada:hover {
       filter:none;
      }
+.sepia:hover{
+    filter:none;
+}
+.negativo:hover{
+    filter:none;
+}
