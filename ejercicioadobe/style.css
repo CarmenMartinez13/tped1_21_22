@@ -6,7 +6,8 @@
 }
 body{
     background-image: url(fondoadobe.jpg);
-    background-size: cover;
+    background-size:cover;
+    height: 400px;
     
 }
 header>img{
@@ -23,7 +24,6 @@ p{
     text-align: right;
     color:lightgray;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
     padding-right: 5%;
     position: relative;
     bottom: 50px;
@@ -59,9 +59,12 @@ p{
 #derecha>img{
     padding-top: 3%;
 }
+#barra{
+   height:42px;
+}
 footer {
-    background-color:dimgrey;
-    height: 180px;
+    background-color:black;
+    height: 140px;
     display: flex;
     flex-direction: row;
 }
