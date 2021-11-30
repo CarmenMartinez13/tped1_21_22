@@ -7,7 +7,7 @@
 body{
     background-image: url(fondoadobe.jpg);
     background-size:cover;
-    height: 400px;
+    background-repeat: no-repeat;
     
 }
 header>img{

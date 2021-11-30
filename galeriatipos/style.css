@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-color: cornflowerblue;
+}
+#cabecera{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:skyblue;
+    font-size:250%;
+}
+.padre{
+    display: flex;
+    padding-top: 2%;
+    margin-left:2%;
+    margin-right:1%;
+    margin-bottom:1%;
+    flex-flow: row wrap;
+}
+.padre div{
+    padding: 2% 4% 1% 6%;
+    background-color:lightsalmon;
+    width: 33%;
+}
+.tipo1{
+    font-family: 'Anton', sans-serif; 
+}
+.tipo2{
+    font-family: 'Pacifico', cursive;
+}
+.tipo3{
+    font-family: 'Architects Daughter', cursive;
+}
+.tipo4{
+    font-family: 'Abril Fatface', cursive;
+}
+.tipo5{
+    font-family: 'M PLUS Code Latin', sans-serif;
+}
+.tipo6{
+    font-family: 'Amatic SC', cursive;
+}
+.tipo7{
+    font-family: 'Fredoka One', cursive;
+}
+.tipo8{
+    font-family: 'Righteous', cursive;
+}
+.tipo9{
+    font-family: 'Comforter', cursive;
+}
+p{
+    color:beige;
+}
+h2{
+    color:beige;
+}
+
