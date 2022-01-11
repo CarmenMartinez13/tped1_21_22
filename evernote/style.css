@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p{
+   
+    font-size:medium;
+}
+h1{
+    font-size:medium;
+    color:rgb(138, 201, 14);
+}
+h2{
+    font-size: medium;
+}
+p{
+    font-size: small;
+    font-weight: 600;
+}
